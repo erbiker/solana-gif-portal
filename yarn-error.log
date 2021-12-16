@@ -1,0 +1,60 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.22.5/bin/yarn.js add brosh
+
+PATH: 
+  /nix/store/2fp74j0d50vls4hwh2wmfxz5mns32mij-pid1-0.0.0-73a5a35/bin:/nix/store/1d14fcwp2z64wmmr5jpfa1m5zay0n9fq-silver-searcher-2.2.0/bin:/nix/store/pcr60c6n4hcxqbaqvqv2ly6ihcnvn8f5-bash/bin:/nix/store/0vkw1m51q34dr64z5i87dy99an4hfmyg-coreutils-8.32/bin:/nix/store/ng35kcfzm03fdmp97nc2dxi63jv41sca-vscode-cpptools-dap-1.3.1/bin:/nix/store/n578yqf36hxxs6nhcwq35gkqhv2b00cl-replit-python-dap-wrapper-1.0.0/bin:/nix/store/a1f3nfyfgdj4dsfi27g98kdmvj2j84j2-node-dap/bin:/nix/store/yzr5fybypw977fxnqj3gsp3gznh1lbm2-fluxbox/bin:/nix/store/vfnpx0k26ilwv3p2x8rdf0an5llpdmjw-prybar-nodejs-0.0.0-02c7adf/bin:/nix/store/7bf2l1b07vj9m9p1fn4g64h5sba2i9ls-pulseaudio-14.2/bin:/nix/store/8cpkwghsa1crf84x7155pnsx5xjqyzsz-rfbproxy-0.0.0-b81eb2f/bin:/nix/store/fy1vhp96i11ng6mwbr0l5apj68c64lgr-tigervnc-1.11.0/bin:/nix/store/mjbrcsjhn4smd1jdl4nkywpvzdyfcd14-upm-0.0.0-98447b2/bin:/nix/store/3hny06xvqvc4irdnknk732a2km9b93rq-xwininfo-1.1.4/bin:/home/runner/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.22.6
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/brosh: Not found
+      at Request.params.callback [as _callback] (/opt/yarn-v1.22.5/lib/cli.js:66988:18)
+      at Request.self.callback (/opt/yarn-v1.22.5/lib/cli.js:140749:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/opt/yarn-v1.22.5/lib/cli.js:141721:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (/opt/yarn-v1.22.5/lib/cli.js:141643:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1241:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "ReplitReactjsProject",
+    "version": "0.0.1",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "dependencies": {
+      "@project-serum/anchor": "^0.18.2",
+      "@solana/web3.js": "^1.31.0",
+      "@types/react": "^17.0.13",
+      "@types/react-dom": "^17.0.8",
+      "@vitejs/plugin-react-refresh": "^1.3.0",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "vite": "^2.3.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
